@@ -10,6 +10,9 @@ p {
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .name-color {
     color: orange;
@@ -23,6 +26,7 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 5%;
+    padding-right: 3%;
 }
 
 .half-width img {
@@ -49,4 +53,24 @@ h1 {
     background-position: right;
 }
 
-.experience-area {}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    margin: 0 5% 0 5%;
+    padding: 30px;
+    box-shadow: -10px 10px 30px #5a5a5a;
+    border-radius: 5px;
+    
+}
+
+#experience-border{
+    border-left: 8px solid tomato;
+}
+#experience-border1{
+    border-left: 8px solid blue;
+}
