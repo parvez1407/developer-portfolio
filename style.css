@@ -63,7 +63,7 @@ h2{
     width: 40%;
     margin: 0 5% 0 5%;
     padding: 30px;
-    box-shadow: -10px 10px 30px #5a5a5a;
+    box-shadow: 10px 10px 30px #5a5a5a;
     border-radius: 5px;
     
 }
@@ -73,4 +73,8 @@ h2{
 }
 #experience-border1{
     border-left: 8px solid blue;
+}
+
+footer p{
+    text-align: center;
 }
