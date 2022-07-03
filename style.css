@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+p {
+    text-align: justify;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -11,7 +15,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,3 +48,5 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experience-area {}
